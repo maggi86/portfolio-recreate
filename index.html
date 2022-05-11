@@ -7,11 +7,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://lifechoicesnpo.slack.com/archives/D03AGGDTWRY/p1652256985582189?thread_ts=1652256944.434939&cid=D03AGGDTWRY">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
+  <link rel="stylesheet" href="https://lifechoicesnpo.slack.com/archives/D03AGGDTWRY/p1652256985582189?thread_ts=1652256944.434939&cid=D03AGGDTWRY">
+ <link rel="stylesheet" href="styles/style.css">
   <title>Meagan Williams</title>
 </head>
-<body class="hero-anime" style="background-image: url(./images/istockphoto-1185145116-612x612.png)">
+<body style="background-image: url(./images/istockphoto-1185145116-612x612.png)">
   <style>
     body {
         background-repeat: no-repeat;
@@ -21,29 +23,36 @@
   </style>
   <header>
     
-<nav class="navbar">
-  <div class="container-fluid">
-    <div>
-      <ul class="navbar-brand list-unstyled ">
-        <li>
-          <a href="#box1"><span></span><span class="link"> Home</span></a>
-        </li>
-        <li>
-            <a href="#about"><span></span><span class="link"> About</span></a>
-        </li>
-        <li>
-          <a href="#"><span></span><span class="link">Projects</span></a>
-        </li>
-        <li>
-          <a href="#"><span></span><span class="link"> Resume</span></a>
-        </li>
-        <li>
-          <a href="#"><span></span><span class="link"> Contact</span></a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" img src="./images/images.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#box1"><i class="bi bi-house"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><i class="bi bi-file-person"></i>About</a>
+            </li>
+            <li class="nav-item">
+              
+              <a class="nav-link"  href="#projects"><i class="bi bi-collection"></i>Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume"><i class="bi bi-briefcase"></i></i>Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts"><i class="bi bi-telephone-fill"></i> Contacts</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
 </header>
 <div class="p-4 m-4">
 
@@ -69,10 +78,13 @@
         <h1>Meagan Williams</h1>
         <p class="h3">An Aspiring Web developer</p>
         <p class="h4">Welcome to my portfolio. I enjoy creating and designing colourful, fun, simplistic websites with a touch of minimalism. I'm passionate about web development and I believe it's one of the most powerful resources to put yourself out there.</p>
-        <p class="fa fa-calendar">2004/02/04</p>
-        <p class="fa fa-phone">+27 67 155 0947</p>
-        <p>meaganwilliams407@gmail.com</p>
-        <p>Bonteheuwel, Cape Town</p>
+        <div class="fa fa-calendar"> 2004/02/04</div>
+        <br>
+        <div class="fa fa-phone"> +27 67 155 0947</div>
+        <br>
+        <div  class="fa fa-envelope"> meaganwilliams407@gmail.com</div>
+        <br>
+        <div class="fa fa-home"> Bonteheuwel, Cape Town</div>
       </div>
     </div>
   </div> 
@@ -84,22 +96,154 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 <div id="about">
   <div class="lead text-center">
     <h3>ABOUT MYSELF</h3>
   </div>
-  <p class="lead text-center p-5 m-5">Hungry, driven and tenacious. That's how I'd describe myself. When I'm not busy coding and compiling, I'm spending time reading, watching a lot of tv or learning more about things i dont know. Below you'll find my key performance areas as well as my current skill stack, with HTML, CSS and bootstrap as my core skills.</p>
+  <p class="lead text-center fw-bold p-5 m-5">Hungry, driven and tenacious. That's how I'd describe myself. When I'm not busy coding and compiling, I'm spending time reading, watching a lot of tv or learning more about things i dont know. Below you'll find my key performance areas as well as my current skill stack, with HTML, CSS and bootstrap as my core skills.</p>
 
-  <div>
-    <i class="fab fa-css3-alt"></i>
-    <i class="fab fa-html5"></i>
-    <i class="bi bi-bootstrap"></i>
-
+  <br>
+  <br>
+  <div class="lead text-center">
+    <h3>SKILL STACK</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/7422531_css3_css_file_development_icon.png" height="80px" weidth="50px">
+          <p>CSS3</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/367627_html_html5_icon.png" height="70px" weidth="50px">
+          <p>HTML5</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/8666135_bootstrap_icon.png"
+          height="70px" weidth="50px">
+          <p>BOOTSTRAP</p>
+        </div>
+  </div>
+  <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <div id="projects" style="background-image: url(./images/istockphoto-1185145116-612x612.png)">
+    <style>
+      body{
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+    <br>
+    <h2 class="lead text-center">MY PROJECTS</h2>
+    <p class="h6">( tap the sites )</p>
+    <br>
+    <br>
+    <div class="lead text-end">
+      <img src="./images/calculator.png" data-bs-toggle="modal" data-bs-target="#exampleModal" height="800px" width="900px">
+    </div>
+    <div>
+      <img src="./images/rainbow.png" data-bs-toggle="modal" data-bs-target="#exampleModal2" height="500px" width="1050px">
+    </div>
+    <br>
+    <div>
+      <img src="./images/Screenshot 2022-05-11 115811.png"
+      data-bs-toggle="modal" data-bs-target="#exampleModal3" height="600px" width="1100px">
+    </div>
+    
+    
+    
+  </div>
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Calculator</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        A calculator i worked on in my 2nd week at life choices.
+      </div>
+      <div class="modal-footer">
+        <a id="exampleModal" href="https://github.com/maggi86/calculator">GitHub</a>
+        <a id="exampleModal" href="https://app.netlify.com/sites/calculator-undone-5673">Source</a>
     </div>
   </div>
-  
-
 </div>
+<!-- Modal 2-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal2Label">Rainbow</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        A ranbow made with css and html.
+      </div>
+      <div class="modal-footer">
+        <a id="exampleModal2" href="https://github.com/maggi86/rainbow">GitHub</a>
+        <a id="exampleModal2" href="https://app.netlify.com/sites/rainbow-kitten-52438d">Source</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 3-->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Swamp</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Swamp ...remind you of Shrek.
+      </div>
+      <div class="modal-footer">
+        <a id="exampleModal3" href="https://github.com/maggi86/nav-example">GitHub</a>
+        <a id="exampleModal3" href="https://app.netlify.com/sites/swamp-stardust-fc706b">Source</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<!-- timeline -->
+<div id="resume">
+  <div class="timeline">
+    <div class="container left">
+      <div class="content">
+        <h2>2009</h2>
+        <p>Started Primary School at Arcadia primary</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>2016</h2>
+        <p>Joined the Eoan Group in Athlone</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>2017</h2>
+        <p>Started High school at Oude Molen Academy of Technology and Science</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>2022</h2>
+        <p>Started at Life Choices</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Link to page
 ================================================== -->
