@@ -13,14 +13,8 @@
  <link rel="stylesheet" href="styles/style.css">
   <title>Meagan Williams</title>
 </head>
-<body style="background-image: url(./images/istockphoto-1185145116-612x612.png)">
-  <style>
-    body {
-        background-repeat: no-repeat;
-        background-size: cover;
-        max-height: 600px;
-    }
-  </style>
+<body>
+
   <header>
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -45,7 +39,10 @@
               <a class="nav-link" href="#resume"><i class="bi bi-briefcase"></i></i>Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contacts"><i class="bi bi-telephone-fill"></i> Contacts</a>
+              <a class="nav-link" href="#testimonial"><i class="bi bi-telephone-fill"></i>Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts"><i class="bi bi-telephone-fill"></i>Contacts</a>
             </li>
             
           </ul>
@@ -54,17 +51,18 @@
     </nav>
 
 </header>
-<div class="p-4 m-4">
+<main>
+  <div class="p-4 m-4">
 
 </div>
 <div id="box1">
   <style>
     #box1 {
       width: 1100px;
-      height: 500px;
+      height: 450px;
       background-color: rgb(227, 215, 217);
       box-shadow: 1vw 1vw 4vw rgba(31, 29, 29, 0.662);
-      margin-left: 14%;
+      margin-left: 6%;
       align-items: left;
       border-radius: 10px;
     }
@@ -89,6 +87,8 @@
     </div>
   </div> 
 </div>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -132,34 +132,34 @@
 <br>
 <br>
 <br>
-  <div id="projects" style="background-image: url(./images/istockphoto-1185145116-612x612.png)">
-    <style>
-      body{
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    </style>
-    <br>
-    <h2 class="lead text-center">MY PROJECTS</h2>
+<div id="projects" class="bg">
+  <div class="container p-4">
+    <div class="row">
+      <h3 class="text-center">MY PROJECTS</h3>
     <p class="h6">( tap the sites )</p>
-    <br>
-    <br>
-    <div class="lead text-end">
-      <img src="./images/calculator.png" data-bs-toggle="modal" data-bs-target="#exampleModal" height="800px" width="900px">
+    <div class="col-4">
+      <div>
+        <img src="./images/calculator.png" class="img-fluid" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
+      </div>
+      <br>
     </div>
-    <div>
-      <img src="./images/rainbow.png" data-bs-toggle="modal" data-bs-target="#exampleModal2" height="500px" width="1050px">
+    <div class="col-4">
+      <div>
+        <img src="./images/rainbow.png" class="img-fluid" data-bs-toggle="modal"
+          data-bs-target="#exampleModal2">
+      </div>
+      <br>
     </div>
-    <br>
-    <div>
-      <img src="./images/Screenshot 2022-05-11 115811.png"
-      data-bs-toggle="modal" data-bs-target="#exampleModal3" height="600px" width="1100px">
+    <div class="col-4">
+      <div>
+        <img src="./images/Screenshot 2022-05-11 115811.png" class="img-fluid" data-bs-toggle="modal"
+        data-bs-target="#exampleModal3">
+      </div>
     </div>
-    
-    
-    
   </div>
-  <!-- Modal -->
+</div>
+<!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -173,11 +173,12 @@
       <div class="modal-footer">
         <a id="exampleModal" href="https://github.com/maggi86/calculator">GitHub</a>
         <a id="exampleModal" href="https://app.netlify.com/sites/calculator-undone-5673">Source</a>
+      </div>
     </div>
   </div>
 </div>
 <!-- Modal 2-->
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -195,7 +196,7 @@
   </div>
 </div>
 <!-- Modal 3-->
-<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModal3Label" aria-hidden="true">
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -213,11 +214,98 @@
   </div>
 </div>
 </div>
+</div>
+<br>
+</div>
 <br>
 <!-- timeline -->
+<!-- timeline -->
 <div id="resume">
-  
+  <h3 class="lead text-center">RESUME</h3>
+  <div class="timeline">
+    <div class="box left">
+      <div class="content">
+        <h2>2022</h2>
+        <p>Started at Life Choices Web Development.</p>
+      </div>
+    </div>
+    <div class="box right">
+      <div class="content">
+        <h2>2017-2021</h2>
+        <p>Went to High School at Oude Molen Academy of Science and technology in Pinelands.</p>
+      </div>
+    </div>
+    <div class="box left">
+      <div class="content">
+        <h2>2019-2021</h2>
+        <p>I studied Engineering Graphics and Design( EGD ).</p>
+      </div>
+    </div>
+    <div class="box right">
+      <div class="content">
+        <h2>2019</h2>
+        <p>I studied Mechanical Engineering for a year.</p>
+      </div>
+    </div>
+    <div class="box left">
+      <div class="content">
+        <h2>2020-2021</h2>
+        <p>i studied Automotive Engineering for two years.</p>
+      </div>
+    </div>
+    <div class="box right">
+      <div class="content">
+        <h2>2009-2016</h2>
+        <p>I attended primary school at Arcadia Primary School in Bonteheuwel.</p>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div id="testimonial" class="bg">
+  <h3 class="lead text-center">TESTIMONIALS</h3>
+
+</div>
+
+
+<div id="contacts">
+  <h2 class="lead text-center">Contact us</h2>
+            
+  <form>
+      <div>
+          <label>Name:</label>
+          <input type="text"
+          placeholder="Add your name">
+      </div>                
+      <div>
+          <label>Surname:</label>
+          <input type="text"
+          placeholder="Add your surname">
+      </div>                
+      <div>
+          <label>Contact:</label>
+          <input type="number"
+          placeholder="Add your contact">
+      </div>
+      <div>
+          <label>Email:</label>
+          <input type="email"
+          placeholder="Add your Email">
+      </div>
+      <div>
+          <label>Age</label>
+          <input type="number"
+          placeholder="Add your age">
+      </div>
+      <div>
+          <label>Textarea:</label>
+          <textarea cols="40" rows="6"></textarea>
+      </div>                                            
+  </form>
+</div>
+
+</main>
+
 
 
 <!-- Link to page
