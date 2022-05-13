@@ -52,14 +52,13 @@
 </header>
 <main>
 <section id="landing">
-  <div class="p-4 m-4">
 
 </div>
 <div id="box1">
-  <div class="container">
+  <div class="container rounded-3 border border-2 shadow border-dark text-center">
     <div class="row">
       <div class="col-5 p-4">
-        <img class="rounded border border-6" src="./images/Meagan (2).jpg" height="350px" width="350px">
+        <img src="./images/Meagan (2).jpg" height="350px" width="350px">
         </div>
       <div class="col-7 lead text-start p-5 ps-3">
         <h1>Meagan Williams</h1>
@@ -84,11 +83,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <section id="about">
   <div class="lead text-center">
     <h3>ABOUT MYSELF</h3>
@@ -106,15 +100,15 @@
       <br>
       <div class="container">
         <div class="row ">
-          <div class="col-4 rounded border border-1 pt-4">
+          <div id="left" class="col-3 rounded border border-1 pt-4">
             <img src="./images/7422531_css3_css_file_development_icon.png" height="80px" weidth="50px">
             <p>CSS3</p>
           </div>
-          <div id="middle" class="col-4 rounded border border-1 pt-4">
+          <div id="middle" class="col-3 rounded border border-1 pt-4">
             <img src="./images/367627_html_html5_icon.png" height="70px" weidth="50px">
             <p>HTML5</p>
           </div>
-          <div class="col-4 rounded border border-1 pt-4">
+          <div class="col-3 rounded border border-1 pt-4">
             <img src="./images/8666135_bootstrap_icon.png" height="70px" weidth="50px">
             <p>BOOTSTRAP</p>
           </div>
@@ -122,7 +116,7 @@
       </div>
     </div>
   </section>
-  <br>
+<br>
 <br>
 <br>
 <br>
@@ -130,29 +124,18 @@
 <br>
 <br>
 <section class="bg" id="projects">
-  <div class="container p-4">
-    <div class="row">
+  <div class="row p-4">
+    <div class="container2">
       <h3 class="text-center text-white">MY PROJECTS</h3>
     <p class="h6 text-center text-white">( tap the sites )</p>
-    <div class="col-4">
-      <div>
-        <img src="./images/calculator.png" class="img-fluid" data-bs-toggle="modal"
-        data-bs-target="#exampleModal">
-      </div>
-      <br>
+    <div class="row-2">
+      <img src="./images/calculator.png" id="pic1" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal">
     </div>
-    <div class="col-4">
-      <div>
-        <img src="./images/rainbow.png" id="pic2" class="img-fluid" data-bs-toggle="modal"
-          data-bs-target="#exampleModal2">
-      </div>
-      <br>
+    <div class="row-4">
+      <img src="./images/rainbow.png" id="pic2" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal2">
     </div>
-    <div class="col-4">
-      <div>
-        <img src="./images/Screenshot 2022-05-11 115811.png" id="pic3" class="img-fluid" data-bs-toggle="modal"
-        data-bs-target="#exampleModal3">
-      </div>
+    <div class="row-4">
+      <img src="./images/Screenshot 2022-05-11 115811.png" id="pic3" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal3">
     </div>
   </div>
 </div>
@@ -165,12 +148,12 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="./images/calculator.png" height="50px" width="50px">
-        A calculator i worked on in my 2nd week at life choices.
+        <img src="./images/calculator.png" height="80px" width="80px">
+        A cover calculator i worked on in my 2nd week at Life Choices Academy of Coding using css and html.
       </div>
       <div class="modal-footer">
         <a id="exampleModal" href="https://github.com/maggi86/calculator">GitHub</a>
-        <a id="exampleModal" href="https://app.netlify.com/sites/calculator-undone-5673">Source</a>
+        <a id="exampleModal" href="https://calculator-undone-5673.netlify.app/">Source</a>
       </div>
     </div>
   </div>
@@ -184,12 +167,12 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="./images/rainbow.png" height="45px" width="65px">
-        A ranbow made with css and html.
+        <img src="./images/rainbow.png" height="65px" width="86px">
+        A rainbow made with css and html.
       </div>
       <div class="modal-footer">
         <a id="exampleModal2" href="https://github.com/maggi86/rainbow">GitHub</a>
-        <a id="exampleModal2" href="https://app.netlify.com/sites/rainbow-kitten-52438d">Source</a>
+        <a id="exampleModal2" href="hhttps://rainbow-kitten-52438d.netlify.app/">Source</a>
       </div>
     </div>
   </div>
@@ -203,11 +186,12 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="./images/Screenshot 2022-05-11 115811.png" height="45px" width="65px">          Swamp ...remind you of Shrek.
+        <img src="./images/Screenshot 2022-05-11 115811.png" height="65px" width="86px">
+        A website I created with a Shrek theme.
       </div>
       <div class="modal-footer">
         <a id="exampleModal3" href="https://github.com/maggi86/nav-example">GitHub</a>
-        <a id="exampleModal3" href="https://app.netlify.com/sites/swamp-stardust-fc706b">Source</a>
+        <a id="exampleModal3" href="https://swamp-stardust-fc706b.netlify.app/">Source</a>
       </div>
     </div>
   </div>
@@ -225,37 +209,55 @@
     <div class="box left">
       <div class="content">
         <h3>2022 - Current</h3>
-        <p>Started at Life Choices Academy of Coding. Learning Web Development.</p>
+        <small>
+          Life Choices Academy of Coding.
+        </small>
+        <p>Where i started learning coding and Web Development.</p>
       </div>
     </div>
     <div class="box right">
       <div class="content">
         <h3>2017 - 2021</h3>
-        <p>Went to High School at Oude Molen Academy of Science and technology in Pinelands. Passed with a Bachalor</p>
+        <small>
+          Oude Molen Academy of Science and technology.
+        </small>
+        <p>Studied at High School in Pinelands and passed with a Bachalor's pass</p>
       </div>
     </div>
     <div class="box left">
       <div class="content">
         <h3>2019-2021</h3>
-        <p>I studied Engineering Graphics and Design( EGD ) at Oude Molen Academy of Science and Technology.</p>
+        <small>
+          Oude Molen Academy of Science and Technology.
+        </small>
+        <p>I studied Engineering Graphics and Design( EGD ) in High school.</p>
       </div>
     </div>
     <div class="box right">
       <div class="content">
         <h3>2019 - 2020</h3>
-        <p>I studied Mechanical Engineering for a year at Oude Molen Academy of Science and Technology.</p>
+        <small>
+          Oude Molen Academy of Science and Technology.
+        </small>
+        <p>I studied Mechanical Engineering for a year in High School.</p>
       </div>
     </div>
     <div class="box left">
       <div class="content">
         <h3>2020 - 2021</h3>
-        <p>I studied Automotive Engineering for two years at Oude Molen Academy of Science and Technology.</p>
+        <small>
+          Oude Molen Academy of Science and Technology.
+        </small>
+        <p>I studied Automotive Engineering for two years in High School.</p>
       </div>
     </div>
     <div class="box right">
       <div class="content">
         <h3>2009 - 2016</h3>
-        <p>I attended primary school at Arcadia Primary School in Bonteheuwel.</p>
+        <small>
+          Arcadia Primary School.
+        </small>
+        <p>I attended primary school in Bonteheuwel.</p>
       </div>
     </div>
   </div>
@@ -400,31 +402,31 @@
     <br>
     <div class="column">
         <label>Comments:</label>
-        <textarea cols="40" rows="6" name="textarea"></textarea>
+        <textarea cols="40" rows="4" name="textarea"></textarea>
     </div>
-    <div>
-        <button type="submit">Send</button>
+    <div class="text-center">
+        <button class="gradient shimmer" type="submit">Send</button>
     </div>
     <br>
     <br>
     <ul id="under">
         <li>
-            Email: meaganwilliams407@gmail.com 
-        </li>
-        <br>
-        <li>
+          <a href="https://github.com/maggi86">
             GitHub username: Maggi86
+          </a>
         </li>
         <br>
         <li>
+          <a href="https://www.linkedin.com/in/meagan-williams-087920238/">
             Linkedin account: Meagan Williams
+          </a> 
         </li>
     </ul>
   </form>
 </section>
 </main>
 <footer>
-  <aside id="left" class="bg-dark text-white">
+  <aside class="bg-dark text-white text-center">
     <p>Copyright &copy;MEAGAN 2022</p> 
 </aside>
 </footer>

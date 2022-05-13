@@ -1,41 +1,48 @@
 
   @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
+@media screen and { min-width: 1000px;
+  #box1 {
+    width: 100px;
+    height: 430px;
+    margin-left: 14%;
+    align-items: left;
+    border-radius: 10px; 
+  }
+}
 #landing {
     background-image: url(../images/istockphoto-1185145116-612x612.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Gill Sans", sans-serif;
-    max-height:600px;
+    height:600px;
   }
   nav {
     height:60px;
     width:100%;
     position: relative;
   }
-  #middle {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+
   #images{
     border-radius: 50%;
   }
-  #box1 {
-    width: 1100px;
-    height: 430px;
-    background-color: rgb(227, 215, 217);
-    box-shadow: 1vw 1vw 4vw rgba(31, 29, 29, 0.662);
-    margin-left: 10%;
-    align-items: left;
-    border-radius: 10px;
+  .container{
+    background-color: rgb(255, 255, 255);
   }
+  .shadow{
+    box-shadow: 1vw 1vw 4vw rgba(31, 29, 29, 0.662) !important;
+  }
+  #testimonial .box2{
+    display:inline-block;
+    align-content: center;
+  }
+
   .box2{
     height:250px;
-    width: 600px;
+    width: 700px;
     border-radius: 5px;
     background-color: white;
-    margin-left: 25%;
+    margin-left: 28%;
     margin-top:20px;
   }
   #box3 {
@@ -43,7 +50,7 @@
     width: 600px;
     border-radius: 5px;
     background-color: white;
-    margin-left: 25%;
+    margin-left: 28%;
     margin-top:20px;
   }
   .bg {
@@ -52,26 +59,44 @@
     background-size: cover;
     width:100%;
   }
-  #testimonial .box2{
-    display:inline-block;
-  }
-    #projects img{
-    /* object-fit: cover;  */
-    /* width: 300px;
-    height: 200px;
-    */
-    }
+.gradient{
+  background-color: #b0298a;
+  background-image: linear-gradient(315deg, #d02681 0%, #a310a5 74%);
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}                                                                                                                                         .gradient.shimmer:hover{
+  -webkit-mask: linear-gradient(-60deg, rgb(156, 5, 60) 30%, rgba(91, 18, 35, 0.333), rgb(108, 9, 42) 70%) right/300%
+  100%;
+  background-repeat: no-repeat;
+  animation: shimmer 2.5s infinite;
+}
 
   .col-4 {
     border-width: 1px;
   }
 
+  #pic1{
+    margin: 24%;
+    margin-top: 3%;
+    height:800px;
+    width:1000px;
+  }
+
   #pic2{
-    height:110px;
+    margin:16%;
+    padding-top: 100px;
+    height:600px;
+    width: 1000px;
   }
 
   #pic3{
-    height:110px;
+    margin:16%;
+    height:500px;
+    width: 1000px;
 
   }
   
@@ -94,7 +119,8 @@
     width: 60%;
     padding: 30px;
     flex-direction: column;
-    text-align: center;
+    flex-wrap: column inline-block;
+    text-align:inline-block ;
       
   }
   #contacts{
