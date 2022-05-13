@@ -58,9 +58,19 @@
     height: 200px;
     */
     }
-     .col-4 {
-      border-width: 1px;
-    }
+
+  .col-4 {
+    border-width: 1px;
+  }
+
+  #pic2{
+    height:110px;
+  }
+
+  #pic3{
+    height:110px;
+    
+  }
   
   ul{
     display: inline-block;
